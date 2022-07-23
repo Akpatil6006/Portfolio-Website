@@ -1,0 +1,95 @@
+body {
+    background: #CCD6A6;
+}
+
+.intro h2 {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 10px;
+}
+
+.intro p {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 12px;
+}
+
+.skill {
+    width: 265px;
+    height: 7px;
+    /* border: 2px solid; */
+    background-color: white;
+    /* margin-left: 45px; */
+}
+
+.skillcontainer {
+    padding: 8px;
+}
+
+.skillItem {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.hundered span {
+    margin-left: 17.4rem;
+    font-weight: bold;
+}
+
+.hundered {
+    width: 280px;
+    background-color: #003865;
+    border: 2px transparent;
+    border-radius: 10px;
+}
+
+.eighty span {
+    margin-left: 16.8rem;
+    font-weight: bold;
+}
+
+.eighty {
+    width: 270px;
+    background-color: #7F5283;
+    border: 2px transparent;
+    border-radius: 10px;
+    margin-top: 2px;
+}
+
+.sixty span {
+    margin-left: 11.7rem;
+    font-weight: bold;
+}
+
+.sixty {
+    width: 190px;
+    background-color: blueviolet;
+    border: 2px transparent;
+    border-radius: 10px;
+    margin-top: 2px;
+}
+
+.fifty span {
+    margin-left: 11.1rem;
+    font-weight: bold;
+}
+
+.fifty {
+    width: 180px;
+    background-color: #513252;
+    border: 2px transparent;
+    border-radius: 10px;
+    margin-top: 2px;
+}
+
+.seventity span {
+    margin-left: 15.5rem;
+    font-weight: bold;
+}
+
+.seventity {
+    width: 250px;
+    background-color: #513252;
+    border: 2px transparent;
+    border-radius: 10px;
+    margin-top: 2px;
+}

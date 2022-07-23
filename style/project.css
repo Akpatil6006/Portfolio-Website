@@ -1,0 +1,53 @@
+body {
+    background: #FFB4B4;
+}
+
+.project h1 {
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: 4rem;
+}
+
+.portfolio h1 {
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+
+.portfolio p {
+    margin-top: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.portfolio p a {
+    text-decoration: none;
+}
+
+.calculater h1 {
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+
+.calculater p {
+    margin-top: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.calculater p a {
+    text-decoration: none;
+}
+
+.percentage-calculater h1 {
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+
+.percentage-calculater p {
+    margin-top: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.percentage-calculater p a {
+    text-decoration: none;
+}

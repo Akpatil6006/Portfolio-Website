@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #A5C9CA;
+}
+
+.sidebar {
+    position: absolute;
+    background-color: rgb(123, 118, 118);
+    font-family: 'Ubuntu', sans-serif;
+    height: 120vh;
+    transition: transform 0.3s ease-in;
+}
+
+.sidebar nav {
+    padding: 30px;
+    font-size: 22px;
+    height: 100vh;
+}
+
+.sidebar nav li {
+    list-style: none;
+    padding: 33px;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: wheat;
+}
+
+.main {
+    /* background-color: yellow; */
+    width: 88vw;
+}
+
+.container {
+    display: flex;
+    /* background-color: antiquewhite; */
+}
+
+.infocontainer {
+    /* background-color: greenyellow; */
+    height: 58vh;
+    width: 80vw;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.info {
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 23px;
+}
+
+.info .Hello {
+    font-size: 3em;
+}
+
+.info .Name {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.info .About {
+    font-size: 2em;
+    margin-left: 2rem;
+}
+
+.button {
+    margin-top: 2.2em;
+}
+
+.button button {
+    padding: 5px 12px;
+    border-radius: 15px;
+    color: white;
+    background-color: #7F5283;
+    font-weight: bold;
+    font-size: 21px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+
+.button button:hover {
+    color: #7F5283;
+    background-color: white;
+}
+
+.divPic img {
+    height: 58vh;
+}
+
+.social {
+    margin-top: 1rem;
+}
+
+.social a {
+    padding: 0.5rem;
+}
+
+.social a img {
+    border-radius: 12px;
+}
+
+.sidebarGo {
+    transform: translate(-443px, 0px);
+    position: absolute;
+}
+
+.hamburger {
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+
+.cross {
+    margin-left: 155px;
+}
+
+@media(max-width:1280px) {
+    .info {
+        font-size: 10px;
+    }
+    .intro,
+    .contactform {
+        margin: 50px 8px;
+    }
+}
+
+@media(max-width:613px) {
+    .divPic {
+        display: none;
+    }
+}

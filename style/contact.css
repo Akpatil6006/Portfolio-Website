@@ -1,0 +1,48 @@
+body {
+    background: #C8B6E2;
+}
+
+.contactform {
+    font-family: 'Ubuntu', sans-serif;
+    padding: 0 34px;
+    padding-top: 12px;
+}
+
+.contactform h1 {
+    padding: 12px 0;
+}
+
+.contactform div {
+    padding: 8px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactform div input {
+    /* width: 16vw; */
+    border-radius: 5px;
+    margin: 6px 0;
+    padding: 3px;
+}
+
+.contactform form {
+    margin: 0 30px;
+}
+
+#email-info {
+    font-size: 9px;
+    color: brown;
+    margin: 0 5px;
+    /* padding: 3px 0 0 0; */
+}
+
+.btn {
+    padding: 8px 12px;
+    border-radius: 15px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 21px;
+    margin: 0 3px;
+    cursor: pointer;
+}
